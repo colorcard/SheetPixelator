@@ -38,10 +38,10 @@ document.getElementById('convertBtn').addEventListener('click', function() {
       
       // 设置每一列宽度和每一行高度，使单元格近似正方形
       for (let i = 1; i <= scaledWidth; i++) {
-        worksheet.getColumn(i).width = 1.6;
+        worksheet.getColumn(i).width = 1.6/5;
       }
       for (let i = 1; i <= scaledHeight; i++) {
-        worksheet.getRow(i).height = 18;
+        worksheet.getRow(i).height = 18/5;
       }
       
       // 填充单元格，根据图片每个像素的颜色
