@@ -1,3 +1,19 @@
+// 打字动画：将标题“图片转 Excel 像素画”按字母逐个显示
+document.addEventListener('DOMContentLoaded', function() {
+  const titleElement = document.getElementById("title");
+  const fullText = "图片转 Excel 像素画";
+  let index = 0;
+  titleElement.style.opacity = 1; // 动画开始时确保元素显示
+  const typingInterval = setInterval(() => {
+    titleElement.textContent += fullText.charAt(index);
+    index++;
+    if (index === fullText.length) {
+      clearInterval(typingInterval);
+    }
+  }, 200); // 每个字符间隔 200 毫秒
+});
+
+
 // 最大像素尺寸常量：超过此尺寸则自动缩放
 const MAX_PIXEL_SIZE = 500;
 

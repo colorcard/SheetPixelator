@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Pixel';
+  src: url('fusion-pixel-12px-proportional-zh_hans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* 全局重置 */
 * {
   margin: 0;
@@ -8,7 +15,7 @@
 body {
   background-color: #001cd9;
   color: #fff;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Pixel', monospace;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -26,11 +33,12 @@ body {
   animation: fadeIn 1.5s ease-out forwards;
 }
 
-/* 标题 */
+/* 标题：初始为空，由打字动画填充 */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
   letter-spacing: 2px;
+  opacity: 0;
   animation: slideIn 1s ease-out forwards;
 }
 
@@ -42,6 +50,7 @@ p {
 
 /* 按钮组 */
 .button-group {
+  font-family: 'Pixel', monospace;
   margin-top: 20px;
 }
 
@@ -49,6 +58,7 @@ p {
 input[type="file"] {
   background-color: #fff;
   color: #000;
+  font-family: 'Pixel', monospace;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -59,12 +69,14 @@ input[type="file"] {
 
 input[type="file"]:hover {
   transform: scale(1.05);
+  font-family: 'Pixel', monospace;
 }
 
 /* 按钮样式 */
 button {
   background-color: #fff;
   color: #000;
+  font-family: 'Pixel', monospace;
   border: 2px solid #fff;
   padding: 10px 20px;
   margin: 0 10px;

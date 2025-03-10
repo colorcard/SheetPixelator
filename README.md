@@ -35,3 +35,7 @@ WebSheetPixelator 是一个纯前端的工具，用于将图片转换为 Excel �
 ## 许可证
 
 本项目采用 MIT 许可证，详情请参阅 [LICENSE](LICENSE) 文件。
+
+## 字体致谢
+
+本项目中使用的[**像素字体**](fusion-pixel-12px-proportional-zh_hans.ttf)是由 [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font)  提供的开源字体，遵循其 [LICENSE](https://github.com/TakWolf/fusion-pixel-font/blob/master/LICENSE-MIT) 中的许可协议。
