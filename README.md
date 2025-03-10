@@ -12,7 +12,7 @@ WebSheetPixelator 是一个纯前端的工具，用于将图片转换为 Excel �
 ## 演示
 
 项目已部署至 GitHub Pages，你可以通过以下链接查看在线效果：
-[https://colorcard.github.io/WebSheetPixelator/](https://colorcard.github.io/WebSheetPixelator/)
+[pixel.colorcard.cc](https://pixel.colorcard.cc)
 
 ## 使用方法
 
