@@ -1,5 +1,5 @@
 // 最大像素尺寸常量：超过此尺寸则自动缩放
-const MAX_PIXEL_SIZE = 2000;
+const MAX_PIXEL_SIZE = 500;
 
 document.getElementById('convertBtn').addEventListener('click', function() {
   const fileInput = document.getElementById("imageInput");
@@ -38,7 +38,7 @@ document.getElementById('convertBtn').addEventListener('click', function() {
       
       // 设置每一列宽度和每一行高度，使单元格近似正方形
       for (let i = 1; i <= scaledWidth; i++) {
-        worksheet.getColumn(i).width = 1.6/5;
+        worksheet.getColumn(i).width = 1.4/5;
       }
       for (let i = 1; i <= scaledHeight; i++) {
         worksheet.getRow(i).height = 18/5;
