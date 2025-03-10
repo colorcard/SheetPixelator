@@ -1,6 +1,6 @@
-# WebSheetPixelator
+# SheetPixelator
 
-WebSheetPixelator 是一个纯前端的工具，用于将图片转换为 Excel 像素画。该项目使用 HTML、CSS 和 JavaScript，通过 Canvas 提取图片像素数据，利用 ExcelJS 生成 Excel 文件，实现整个转换过程都在浏览器端完成，无需任何后端支持。
+SheetPixelator 是一个纯前端的工具，用于将图片转换为 Excel 像素画。该项目使用 HTML、CSS 和 JavaScript，通过 Canvas 提取图片像素数据，利用 ExcelJS 生成 Excel 文件，实现整个转换过程都在浏览器端完成，无需任何后端支持。
 
 ## 特性
 
@@ -23,7 +23,7 @@ WebSheetPixelator 是一个纯前端的工具，用于将图片转换为 Excel �
 
 1. 克隆或下载仓库：
    ```bash
-   git clone https://github.com/colorcard/WebSheetPixelator.git
+   git clone https://github.com/colorcard/SheetPixelator.git
    ```
 2. 打开项目根目录下的 `index.html` 文件，即可在浏览器中体验该工具。
 

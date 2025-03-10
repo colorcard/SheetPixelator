@@ -1,7 +1,7 @@
 // 打字动画：将标题“图片转 Excel 像素画”按字母逐个显示
 document.addEventListener('DOMContentLoaded', function() {
   const titleElement = document.getElementById("title");
-  const fullText = "图片转 Excel 像素画";
+  const fullText = "Sheet Pixelator";
   let index = 0;
   titleElement.style.opacity = 1; // 动画开始时确保元素显示
   const typingInterval = setInterval(() => {
