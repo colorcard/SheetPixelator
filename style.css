@@ -1,0 +1,107 @@
+/* 全局重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #001cd9;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* 主容器 */
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+/* 标题 */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  animation: slideIn 1s ease-out forwards;
+}
+
+/* 描述 */
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* 按钮组 */
+.button-group {
+  margin-top: 20px;
+}
+
+/* 文件上传按钮 */
+input[type="file"] {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+input[type="file"]:hover {
+  transform: scale(1.05);
+}
+
+/* 按钮样式 */
+button {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:disabled {
+  background-color: #122dda;
+  border-color: #d5d5d5;
+  color: #d5d5d5;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0d1e8a;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #000b57;
+  animation: fadeIn 2s ease-out forwards;
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}

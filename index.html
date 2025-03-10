@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片转Excel像素画 - by colorcard</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- 引入 ExcelJS 库 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.3.0/exceljs.min.js"></script>
+  <!-- 引入 FileSaver.js，用于下载 Excel 文件 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>图片转 Excel 像素画</h1>
+    <p>上传图片，自动转换为 Excel 像素画，支持自动缩放功能。</p>
+    <input type="file" id="imageInput" accept="image/*">
+    <div class="button-group">
+      <button id="convertBtn">转换</button>
+      <button id="downloadBtn" disabled>下载 Excel</button>
+    </div>
+  </div>
+  <footer>
+    <p><br>© Powered by colorcard</p>
+  </footer>
+  <!-- 隐藏画布用于处理图片 -->
+  <canvas id="canvas" style="display:none;"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
