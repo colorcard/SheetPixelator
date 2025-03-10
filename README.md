@@ -16,8 +16,9 @@ SheetPixelator 是一个纯前端的工具，用于将图片转换为 Excel 像�
 
 ## 演示
 
-项目已部署至 GitHub Pages，你可以通过以下链接查看在线效果：
-[pixel.colorcard.cc](https://pixel.colorcard.cc)
+项目已部署至 GitHub Pages 和 CloudFlare Pages，你可以通过以下链接查看在线效果：
+- [pixel.colorcard.cc](https://pixel.colorcard.cc)
+- [sheetpixelator.pages.dev](https://sheetpixelator.pages.dev/)（适合大陆地区访问）
 
 ## 使用方法
 
